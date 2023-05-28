@@ -1,8 +1,8 @@
 package ru.shanin.yandexweather23.data;
 
 public class City {
-    private final double lat;
-    private final double lon;
+    private double lat;
+    private double lon;
 
     public City(double lat, double lon) {
         this.lat = lat;
@@ -15,5 +15,13 @@ public class City {
 
     public double getLon() {
         return lon;
+    }
+
+    public void setLat(double lat) {
+        this.lat = lat;
+    }
+
+    public void setLon(double lon) {
+        this.lon = lon;
     }
 }

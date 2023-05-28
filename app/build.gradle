@@ -39,4 +39,16 @@ dependencies {
     implementation 'com.squareup.okhttp3:logging-interceptor:4.10.0'
     // swipe
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    // maps
+    implementation 'com.yandex.android:maps.mobile:4.3.1-lite'
 }
+
+/*
+repositories {
+    mavenCentral()
+    maven {
+        url "http://maven.google.com/"
+    }
+}
+*/

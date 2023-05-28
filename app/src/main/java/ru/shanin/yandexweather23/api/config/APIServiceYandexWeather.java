@@ -8,7 +8,7 @@ import ru.shanin.yandexweather23.data.responsedata.ResponseData;
 
 public interface APIServiceYandexWeather {
     @GET("/v2/informers")
-    @Headers("X-Yandex-API-Key:" + APIConfigYandexWeather.KEY)
+    @Headers("X-Yandex-API-Key: " + APIConfigYandexWeather.KEY)
     Call<ResponseData> getGetCityWeather(
             @Query("lat") double lat,
             @Query("lon") double lon);
